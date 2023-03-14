@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div id="timer-container">
+        <h1 id="title">Countdown Timer</h1>
+        <div id="monitor">
+            <p id="main"><span id="hour">00</span> : 
+                        <span id="minute">00</span> :
+                        <span id="second">00</span></p>
+            <p id="sub">00</p>
+        </div>
+        <div id="number-button-container" class="button-container" >
+            <button class="number-button" id="0">0</button>
+            <button class="number-button" id="1">1</button>
+            <button class="number-button" id="2">2</button>
+            <button class="number-button" id="3">3</button>
+            <button class="number-button" id="4">4</button>
+            <button id="set">set</button>
+            <button class="number-button" id="5">5</button>
+            <button class="number-button" id="6">6</button>
+            <button class="number-button" id="7">7</button>
+            <button class="number-button" id="8">8</button>
+            <button class="number-button" id="9">9</button>
+            <button id="clear">clear</button>
+        </div>
+
+        <div id="action-button-container" class="button-container" style="display:none;">
+            <button id="start">Start</button>
+            <button id="pause" style="display: none;">Pause</button>
+            <button id="continue" style="display: none;">Continue</button>
+            <button id="reset">Reset</button>
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
